@@ -1,0 +1,136 @@
+
+<html>
+    <head>
+       
+		<title>Donor Registration - Red Cross Society</title>
+
+        <link href="style.css" rel="stylesheet" type="text/css" />
+   <script>
+   nav{
+   font-family:Arial;
+   }
+   </script>
+	</head>
+	
+    <body>
+		<div id="bg">
+			<div id="outer">
+				<div id="header">
+					<div id="logo">
+						<h1>
+							<a href="index.html">Red Cross Society</a>
+						</h1>
+					</div>
+					<div id="nav">
+						<ul>
+							<li class="first active">
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="doctors.html">Doctors</a>
+							</li>
+							<li>
+								<a href="donate.html">Donate Blood</a>
+							</li>
+							<li>
+								<a href="bloodbanks.html">Blood Banks</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact Us</a>
+							</li>
+							
+						</ul>
+						<br class="clear" />
+					</div>
+				</div>
+				<div id="main">
+					<div id="sidebar">
+						<h3>
+							Address
+						</h3>
+						<p>
+							Room No: 805-A, BH-1,<br> Lovely Professional University,<br>Punjab, India,<br>144411<br>
+						</p>
+						<h3>
+							Important Links
+						</h3>
+						<ul class="linkedList">
+							<li class="first">
+								<a href="doctorreg.html">Doctor Registration</a>
+							</li>
+							<li>
+								<a href="donorreg.html">Donor Registration</a>
+							</li>
+							<li>
+								<a href="search.html">Search Doctors in Your Locality</a>
+							</li>
+							<li>
+								<a href="emergency.html">Emergency Contact Numbers</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div id="content">
+						<div id="box1">
+							<h2 align="center">
+								Donor Regostration
+							</h2>
+							
+
+							<form action="donorreg.php" method="post" align="center">
+							<label>Name:<br>
+							<input type="text" placeholder="Enter Your Name" name="Name"><br>
+							<label>Contact No:<br>
+							<input type="text" placeholder="Enter Your Contact No" name="Phone"><br>
+							<label>Blood Group:<br>
+							<select name="bloodgroup" name="bloodgroup">
+						<option value="A+">A+</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B-">B-</option>
+						<option value="AB">AB</option>
+						<option value="AB-">AB-</option>
+						<option value="O+">O+</option>
+							<option value="O-">O-</option>
+					</select><br>
+					<label>Gender:</label>
+					<input type="radio" value="Male" name="gender">Male</input>
+					<input type="radio" value="Female" name="gender">Female</input><br>
+					<label>Your City:</label><br>
+					<select name="city">
+						<option value="Jalandhar">Jalandhar</option>
+						<option value="New Delhi">New Delhi</option>
+						<option value="Kolkata">Kolkata</option>
+						<option value="Chennai">Chennai</option>
+						<option value="Bangalore">Bangalore</option>
+						<option value="Bhubaneshwar">Bhubaneshwar</option>
+						<option value="Ranchi">Ranchi</option>
+							<option value="Ambala">Ambala</option>
+					</select><br>
+					<label>Time Slot:</label><br>
+					<select name="time">
+						<option value="9:00-10:00">9:00-10:00</option>
+						<option value="10:00-11:00">10:00-11:00</option>
+						<option value="11:00-12:00">11:00-12:00</option>
+						<option value="12:00-13:00">12:00-13:00</option>
+						<option value="13:00-14:00">13:00-14:00</option>
+						<option value="14:00-15:00">14:00-15:00</option>
+						<option value="15:00-16:00">15:00-16:00</option>
+							<option value="16:00-17:00">16:00-17:00</option>
+					</select><br><BR>
+					<input type="submit" value="REGISTER" style="border:2px; font-color:green; padding:2px; font-size:90%">
+					
+		
+						</div>
+						
+						<br class="clear" />
+					</div>
+					<br class="clear" />
+				</div>
+			</div>
+			<div id="copyright">
+				&copy; Abhijeet Pradhan, Shivam Sehgal, Naveen Jhakhar
+			</div>
+		</div>
+    </body>
+</html>
